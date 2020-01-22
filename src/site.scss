@@ -1,0 +1,16 @@
+@import "./vendor/normalize/normalize.scss";
+@import "../node_modules/include-media/dist/_include-media.scss";
+
+@import "./common/style/variables.scss"; // Must be imported first.
+@import "./common/style/mixins.scss"; // Must be imported after variables.
+@import "./common/style/misc.scss"; // Must be imported after mixins.scss.
+@import "./common/style/base.scss";
+@import "./common/style/form.scss";
+
+// @import "./containers/**/*.scss";
+// @import "./components/**/*.scss";
+
+#root
+{
+	position: relative;
+}

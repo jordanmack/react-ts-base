@@ -1,0 +1,52 @@
+html
+{
+	box-sizing: border-box;
+	color: $font-color-default;
+	font-family: $font-family-default;
+	font-size: $font-size-default;
+	word-break: break-word;
+}
+
+*, *:before, *:after
+{
+	box-sizing: inherit;
+}
+
+body
+{
+	background: $background-color-default;
+}
+
+h1, h2, h3
+{
+	color: $color-blue;
+}
+
+h1
+{
+	font-size: 24px;
+	font-weight: 600;
+	margin: 0 0 1rem 0;
+}
+
+h2
+{
+	font-size: 18px;
+	font-weight: 600;
+	margin: 0 0 1rem 0;
+}
+
+h3
+{
+	font-weight: 600;
+}
+
+p
+{
+	margin: 0 0 1rem 0;
+}
+
+a
+{
+	color: $font-color-default;
+}

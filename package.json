@@ -1,0 +1,35 @@
+{
+	"name": "",
+	"version": "1.0.0",
+	"description": "",
+	"author": "",
+	"license": "ISC",
+	"main": "index.js",
+	"scripts": {
+		"start": "npm run server",
+		"server": "node ./node_modules/webpack-dev-server/bin/webpack-dev-server.js --host 0.0.0.0 --disableHostCheck --content-base dist --config webpack.config.js",
+		"build": "node ./node_modules/webpack/bin/webpack.js --config webpack.config.js",
+		"docs": "node ./node_modules/.bin/esdoc -c ./esdoc.json"
+	},
+	"dependencies": {
+		"@types/react": "^16.9.18",
+		"@types/react-dom": "^16.9.5",
+		"css-loader": "^3.4.2",
+		"include-media": "^1.4.9",
+		"mini-css-extract-plugin": "^0.9.0",
+		"node-sass": "^4.13.1",
+		"react": "^16.12.0",
+		"react-dom": "^16.12.0",
+		"sass-loader": "^8.0.2",
+		"source-map-loader": "^0.2.4",
+		"ts-loader": "^6.2.1",
+		"typescript": "^3.7.5",
+		"webpack": "^4.41.5",
+		"webpack-cli": "^3.3.10",
+		"webpack-dev-server": "^3.10.1"
+	},
+	"devDependencies": {
+		"esdoc": "^1.1.0",
+		"esdoc-standard-plugin": "^1.0.0"
+	}
+}
